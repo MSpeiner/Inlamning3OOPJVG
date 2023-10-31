@@ -63,4 +63,6 @@ public class Metoder extends JFrame {
         knappLista.add(knappSexton);
     }
 
+    //testKod
+
 }
