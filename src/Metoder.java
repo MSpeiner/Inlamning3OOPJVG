@@ -45,7 +45,7 @@ public class Metoder extends JFrame {
 
     //Skapar upp metod för att skapa knappar
     public void skapaKnappar (ArrayList<JButton> knappLista){
-        knappLista.add(knappEtt);
+        knappLista.add(Knapp5);
         knappLista.add(knappTvå);
         knappLista.add(knappTre);
         knappLista.add(knappFyra);
