@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.ArrayList;
 
 public class Metoder extends JFrame {
     //Skapar upp Paneler
@@ -37,5 +38,29 @@ public class Metoder extends JFrame {
     //South panel
     JLabel vinstMeddelande = new JLabel(" ");
     JLabel antalVinster = new JLabel(" ");
+    Huvudkod h;
+    Metoder(Huvudkod h){
+        this.h = h;
+    }
+
+    //Skapar upp metod för att skapa knappar
+    public void skapaKnappar (ArrayList<JButton> knappLista){
+        knappLista.add(knappEtt);
+        knappLista.add(knappTvå);
+        knappLista.add(knappTre);
+        knappLista.add(knappFyra);
+        knappLista.add(knappFem);
+        knappLista.add(knappSex);
+        knappLista.add(knappSju);
+        knappLista.add(knappÅtta);
+        knappLista.add(knappNio);
+        knappLista.add(knappTio);
+        knappLista.add(knappElva);
+        knappLista.add(knappTolv);
+        knappLista.add(knappTretton);
+        knappLista.add(knappFjorton);
+        knappLista.add(knappFemton);
+        knappLista.add(knappSexton);
+    }
 
 }

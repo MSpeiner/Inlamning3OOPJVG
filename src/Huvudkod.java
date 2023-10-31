@@ -11,9 +11,12 @@ public class Huvudkod {
     Metoder m = new Metoder(this);
     //Skapar upp knapplista
     ArrayList<JButton> knappLista = new ArrayList<>();
-    Huvudkod(){}
+    Huvudkod(){
+        //Lägger till knappar till listan
+        m.skapaKnappar(knappLista);
+    }
     public static void main(String[] args) {
-
+        Huvudkod hk = new Huvudkod();
     }
 }
 
