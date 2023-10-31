@@ -10,7 +10,7 @@ public class Metoder extends JFrame {
 
 
     //skapar upp 16 knappar för centerPanel
-    JButton knappEtt = new JButton("1");
+    JButton Knapp5 = new JButton("1");
     JButton knappTvå = new JButton("2");
     JButton knappTre = new JButton("3");
     JButton knappFyra = new JButton("4");
