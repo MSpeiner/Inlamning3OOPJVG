@@ -65,6 +65,7 @@ public class Metoder extends JFrame {
     }
 
     public void läggTillIJP(JPanel jp, JPanel northPanel, JPanel centerPanel, JPanel southPanel){
+
         jp.setLayout(new BorderLayout());
         jp.add(northPanel, BorderLayout.NORTH);
         jp.add(centerPanel, BorderLayout.CENTER);
